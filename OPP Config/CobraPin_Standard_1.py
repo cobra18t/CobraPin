@@ -21,7 +21,7 @@
 #              PPPPP      OOOO      PPPPP
 #
 # 
-# File modified by Thomas Fulenwider on 1/15/21
+# File modified by Thomas Fulenwider on 4/15/21
 #
 # @file:   regrCfg.py
 # @author: Hugh Spahr
@@ -56,7 +56,7 @@ testVers = '00.00.02'
 import rs232Intf
 
 # Config inputs as all state inputs
-wingCfg = [ [ rs232Intf.WING_NEO_SOL, rs232Intf.WING_SOL, rs232Intf.WING_SW_MATRIX_OUT, rs232Intf.WING_SW_MATRIX_IN ] ]
+wingCfg = [ [ rs232Intf.WING_NEO_SOL, rs232Intf.WING_SOL, rs232Intf.WING_SW_MATRIX_OUT_LOW, rs232Intf.WING_SW_MATRIX_IN ] ]
 
 # Config inputs as all state inputs
 inpCfg = [ [ rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, \
