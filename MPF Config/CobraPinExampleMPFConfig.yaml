@@ -34,7 +34,7 @@ psus:
       #Gives the capacitors extra time to recharge after firing a coil
       #  and eases the load on the power supply. Doesn't affect autofire
       #  devices like flippers, pops, slings.
-      release_wait_ms: 30   
+      release_wait_ms: 50   
  
       
 #One giant config file can get difficult to manage. You can put any of 
