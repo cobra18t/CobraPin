@@ -137,6 +137,7 @@ playfields:
 
 machine:
    balls_installed: 3 #How many balls are physically in your game
+   min_balls: 3 #How few balls can be accounted for before you can start a game
     
 
 game:
@@ -146,9 +147,9 @@ game:
     
 modes:
    #Add all your mode names here
-   - attract
-   - base
-   - etc
+   #- attract
+   #- base
+   #- etc
   
     
 keyboard:   #use to drive your game from the computer for testing
