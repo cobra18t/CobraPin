@@ -40,7 +40,7 @@ psus:
 #One giant config file can get difficult to manage. You can put any of 
 #  these config sections in its own yaml file and link to it with the 
 #  config section here      
-#config:
+config:
    #- switches_config.yaml
    #- lights_config.yaml
    #- coils_config.yaml
