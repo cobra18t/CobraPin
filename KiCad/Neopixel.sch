@@ -1,0 +1,514 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Logic_LevelTranslator:SN74LVC1T45DBV U?
+U 1 1 5EFFD467
+P 5250 3150
+AR Path="/5D5A0AA2/5EFFD467" Ref="U?"  Part="1" 
+AR Path="/5EFFD467" Ref="U?"  Part="1" 
+AR Path="/5EFFA9D1/5EFFD467" Ref="U4"  Part="1" 
+F 0 "U4" H 4800 3500 50  0000 L CNN
+F 1 "SN74LVC1T45DBV" H 4250 3400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5250 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" H 4350 2500 50  0001 C CNN
+	1    5250 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EFFD46D
+P 5250 3550
+AR Path="/5D5A0AA2/5EFFD46D" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFD46D" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5EFFD46D" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 5250 3300 50  0001 C CNN
+F 1 "GNDD" H 5254 3395 50  0000 C CNN
+F 2 "" H 5250 3550 50  0001 C CNN
+F 3 "" H 5250 3550 50  0001 C CNN
+	1    5250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EFFD473
+P 5650 3550
+AR Path="/5D5A0AA2/5EFFD473" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFD473" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5EFFD473" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 5650 3300 50  0001 C CNN
+F 1 "GNDD" H 5654 3395 50  0000 C CNN
+F 2 "" H 5650 3550 50  0001 C CNN
+F 3 "" H 5650 3550 50  0001 C CNN
+	1    5650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EFFD479
+P 5150 2750
+AR Path="/5D5A0AA2/5EFFD479" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFD479" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5EFFD479" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 5150 2600 50  0001 C CNN
+F 1 "+3V3" H 5165 2923 50  0000 C CNN
+F 2 "" H 5150 2750 50  0001 C CNN
+F 3 "" H 5150 2750 50  0001 C CNN
+	1    5150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EFFD47F
+P 5350 2750
+AR Path="/5D5A0AA2/5EFFD47F" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFD47F" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5EFFD47F" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 5350 2600 50  0001 C CNN
+F 1 "+5V" H 5365 2923 50  0000 C CNN
+F 2 "" H 5350 2750 50  0001 C CNN
+F 3 "" H 5350 2750 50  0001 C CNN
+	1    5350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3350 5650 3550
+Wire Wire Line
+	4550 3150 4850 3150
+Text HLabel 4550 3150 0    50   Input ~ 0
+NEO_DOUT1_3V3
+$Comp
+L SparkFun-Connectors:CONN_03 J12
+U 1 1 5EFFDB67
+P 6600 3050
+AR Path="/5EFFA9D1/5EFFDB67" Ref="J12"  Part="1" 
+AR Path="/5D6DD9D9/5EFFDB67" Ref="J12"  Part="1" 
+F 0 "J12" H 6372 3055 45  0000 R CNN
+F 1 "CONN_03" H 6372 3139 45  0000 R CNN
+F 2 "Connectors:JST_VH_B3P-VH_1x03_P3.96mm_Vertical_LongPads_Lock" H 6600 3450 20  0001 C CNN
+F 3 "" H 6600 3050 50  0001 C CNN
+	1    6600 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F0010AE
+P 6400 2750
+AR Path="/5D5A0AA2/5F0010AE" Ref="#PWR?"  Part="1" 
+AR Path="/5F0010AE" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5F0010AE" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 6400 2600 50  0001 C CNN
+F 1 "+5V" H 6415 2923 50  0000 C CNN
+F 2 "" H 6400 2750 50  0001 C CNN
+F 3 "" H 6400 2750 50  0001 C CNN
+	1    6400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5F00180F
+P 6400 3550
+AR Path="/5D5A0AA2/5F00180F" Ref="#PWR?"  Part="1" 
+AR Path="/5F00180F" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5F00180F" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 6400 3300 50  0001 C CNN
+F 1 "GNDD" H 6404 3395 50  0000 C CNN
+F 2 "" H 6400 3550 50  0001 C CNN
+F 3 "" H 6400 3550 50  0001 C CNN
+	1    6400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3250 6400 3250
+Wire Wire Line
+	6400 3250 6400 3550
+Wire Wire Line
+	6500 3050 6400 3050
+Wire Wire Line
+	6400 3050 6400 2750
+Wire Wire Line
+	6500 3150 6150 3150
+$Comp
+L Device:R_US R?
+U 1 1 5F010521
+P 6000 3150
+AR Path="/5D6DD9D9/5F010521" Ref="R?"  Part="1" 
+AR Path="/5EFFA9D1/5F010521" Ref="R52"  Part="1" 
+F 0 "R52" V 6205 3150 50  0000 C CNN
+F 1 "68" V 6114 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6040 3140 50  0001 C CNN
+F 3 "~" H 6000 3150 50  0001 C CNN
+	1    6000 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 3150 5650 3150
+$Comp
+L Device:C C3
+U 1 1 5F1C1AA8
+P 4600 2350
+F 0 "C3" H 4715 2396 50  0000 L CNN
+F 1 "0.1uF" H 4715 2305 50  0000 L CNN
+F 2 "Capacitors:0402" H 4638 2200 50  0001 C CNN
+F 3 "~" H 4600 2350 50  0001 C CNN
+	1    4600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F1C4330
+P 5850 2350
+F 0 "C4" H 5965 2396 50  0000 L CNN
+F 1 "0.1uF" H 5965 2305 50  0000 L CNN
+F 2 "Capacitors:0402" H 5888 2200 50  0001 C CNN
+F 3 "~" H 5850 2350 50  0001 C CNN
+	1    5850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5F1C4C84
+P 4600 2500
+AR Path="/5D5A0AA2/5F1C4C84" Ref="#PWR?"  Part="1" 
+AR Path="/5F1C4C84" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5F1C4C84" Ref="#PWR062"  Part="1" 
+F 0 "#PWR062" H 4600 2250 50  0001 C CNN
+F 1 "GNDD" H 4604 2345 50  0000 C CNN
+F 2 "" H 4600 2500 50  0001 C CNN
+F 3 "" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5F1C4FD9
+P 5850 2500
+AR Path="/5D5A0AA2/5F1C4FD9" Ref="#PWR?"  Part="1" 
+AR Path="/5F1C4FD9" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5F1C4FD9" Ref="#PWR064"  Part="1" 
+F 0 "#PWR064" H 5850 2250 50  0001 C CNN
+F 1 "GNDD" H 5854 2345 50  0000 C CNN
+F 2 "" H 5850 2500 50  0001 C CNN
+F 3 "" H 5850 2500 50  0001 C CNN
+	1    5850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F1C58BC
+P 5850 2200
+AR Path="/5D5A0AA2/5F1C58BC" Ref="#PWR?"  Part="1" 
+AR Path="/5F1C58BC" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5F1C58BC" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 5850 2050 50  0001 C CNN
+F 1 "+5V" H 5865 2373 50  0000 C CNN
+F 2 "" H 5850 2200 50  0001 C CNN
+F 3 "" H 5850 2200 50  0001 C CNN
+	1    5850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_LevelTranslator:SN74LVC1T45DBV U?
+U 1 1 5ECDB306
+P 5250 5100
+AR Path="/5D5A0AA2/5ECDB306" Ref="U?"  Part="1" 
+AR Path="/5ECDB306" Ref="U?"  Part="1" 
+AR Path="/5EFFA9D1/5ECDB306" Ref="U3"  Part="1" 
+F 0 "U3" H 4800 5450 50  0000 L CNN
+F 1 "SN74LVC1T45DBV" H 4250 5350 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5250 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" H 4350 4450 50  0001 C CNN
+	1    5250 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5ECDB30C
+P 5250 5500
+AR Path="/5D5A0AA2/5ECDB30C" Ref="#PWR?"  Part="1" 
+AR Path="/5ECDB30C" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5ECDB30C" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 5250 5250 50  0001 C CNN
+F 1 "GNDD" H 5254 5345 50  0000 C CNN
+F 2 "" H 5250 5500 50  0001 C CNN
+F 3 "" H 5250 5500 50  0001 C CNN
+	1    5250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5ECDB312
+P 5650 5500
+AR Path="/5D5A0AA2/5ECDB312" Ref="#PWR?"  Part="1" 
+AR Path="/5ECDB312" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5ECDB312" Ref="#PWR067"  Part="1" 
+F 0 "#PWR067" H 5650 5250 50  0001 C CNN
+F 1 "GNDD" H 5654 5345 50  0000 C CNN
+F 2 "" H 5650 5500 50  0001 C CNN
+F 3 "" H 5650 5500 50  0001 C CNN
+	1    5650 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5ECDB31E
+P 5350 4700
+AR Path="/5D5A0AA2/5ECDB31E" Ref="#PWR?"  Part="1" 
+AR Path="/5ECDB31E" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5ECDB31E" Ref="#PWR066"  Part="1" 
+F 0 "#PWR066" H 5350 4550 50  0001 C CNN
+F 1 "+5V" H 5365 4873 50  0000 C CNN
+F 2 "" H 5350 4700 50  0001 C CNN
+F 3 "" H 5350 4700 50  0001 C CNN
+	1    5350 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5300 5650 5500
+Wire Wire Line
+	4550 5100 4850 5100
+Text HLabel 4550 5100 0    50   Input ~ 0
+NEO_DOUT0_3V3
+$Comp
+L SparkFun-Connectors:CONN_03 J11
+U 1 1 5ECDB328
+P 6600 5000
+AR Path="/5EFFA9D1/5ECDB328" Ref="J11"  Part="1" 
+AR Path="/5D6DD9D9/5ECDB328" Ref="J?"  Part="1" 
+F 0 "J11" H 6372 5005 45  0000 R CNN
+F 1 "CONN_03" H 6372 5089 45  0000 R CNN
+F 2 "Connectors:JST_VH_B3P-VH_1x03_P3.96mm_Vertical_LongPads_Lock" H 6600 5400 20  0001 C CNN
+F 3 "" H 6600 5000 50  0001 C CNN
+	1    6600 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5ECDB32E
+P 6400 4700
+AR Path="/5D5A0AA2/5ECDB32E" Ref="#PWR?"  Part="1" 
+AR Path="/5ECDB32E" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5ECDB32E" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 6400 4550 50  0001 C CNN
+F 1 "+5V" H 6415 4873 50  0000 C CNN
+F 2 "" H 6400 4700 50  0001 C CNN
+F 3 "" H 6400 4700 50  0001 C CNN
+	1    6400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5ECDB334
+P 6400 5500
+AR Path="/5D5A0AA2/5ECDB334" Ref="#PWR?"  Part="1" 
+AR Path="/5ECDB334" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5ECDB334" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 6400 5250 50  0001 C CNN
+F 1 "GNDD" H 6404 5345 50  0000 C CNN
+F 2 "" H 6400 5500 50  0001 C CNN
+F 3 "" H 6400 5500 50  0001 C CNN
+	1    6400 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5200 6400 5200
+Wire Wire Line
+	6400 5200 6400 5500
+Wire Wire Line
+	6500 5000 6400 5000
+Wire Wire Line
+	6400 5000 6400 4700
+Wire Wire Line
+	6500 5100 6150 5100
+$Comp
+L Device:R_US R?
+U 1 1 5ECDB340
+P 6000 5100
+AR Path="/5D6DD9D9/5ECDB340" Ref="R?"  Part="1" 
+AR Path="/5EFFA9D1/5ECDB340" Ref="R10"  Part="1" 
+F 0 "R10" V 6205 5100 50  0000 C CNN
+F 1 "68" V 6114 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6040 5090 50  0001 C CNN
+F 3 "~" H 6000 5100 50  0001 C CNN
+	1    6000 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 5100 5650 5100
+$Comp
+L Device:C C5
+U 1 1 5ECDB348
+P 4600 4300
+F 0 "C5" H 4715 4346 50  0000 L CNN
+F 1 "0.1uF" H 4715 4255 50  0000 L CNN
+F 2 "Capacitors:0402" H 4638 4150 50  0001 C CNN
+F 3 "~" H 4600 4300 50  0001 C CNN
+	1    4600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5ECDB34F
+P 5850 4300
+F 0 "C6" H 5965 4346 50  0000 L CNN
+F 1 "0.1uF" H 5965 4255 50  0000 L CNN
+F 2 "Capacitors:0402" H 5888 4150 50  0001 C CNN
+F 3 "~" H 5850 4300 50  0001 C CNN
+	1    5850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5ECDB355
+P 4600 4450
+AR Path="/5D5A0AA2/5ECDB355" Ref="#PWR?"  Part="1" 
+AR Path="/5ECDB355" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5ECDB355" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 4600 4200 50  0001 C CNN
+F 1 "GNDD" H 4604 4295 50  0000 C CNN
+F 2 "" H 4600 4450 50  0001 C CNN
+F 3 "" H 4600 4450 50  0001 C CNN
+	1    4600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5ECDB35B
+P 5850 4450
+AR Path="/5D5A0AA2/5ECDB35B" Ref="#PWR?"  Part="1" 
+AR Path="/5ECDB35B" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5ECDB35B" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 5850 4200 50  0001 C CNN
+F 1 "GNDD" H 5854 4295 50  0000 C CNN
+F 2 "" H 5850 4450 50  0001 C CNN
+F 3 "" H 5850 4450 50  0001 C CNN
+	1    5850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5ECDB367
+P 5850 4150
+AR Path="/5D5A0AA2/5ECDB367" Ref="#PWR?"  Part="1" 
+AR Path="/5ECDB367" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5ECDB367" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 5850 4000 50  0001 C CNN
+F 1 "+5V" H 5865 4323 50  0000 C CNN
+F 2 "" H 5850 4150 50  0001 C CNN
+F 3 "" H 5850 4150 50  0001 C CNN
+	1    5850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-PowerSymbols:3.3V #SUPPLY?
+U 1 1 5ECB8438
+P 4600 4150
+AR Path="/5ECB8438" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EFFA9D1/5ECB8438" Ref="#SUPPLY0102"  Part="1" 
+F 0 "#SUPPLY0102" H 4650 4150 45  0001 L BNN
+F 1 "3.3V" H 4600 4320 45  0000 C CNN
+F 2 "XXX-00000" H 4600 4331 60  0001 C CNN
+F 3 "" H 4600 4150 60  0001 C CNN
+	1    4600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F1C53A6
+P 4600 2200
+AR Path="/5D5A0AA2/5F1C53A6" Ref="#PWR?"  Part="1" 
+AR Path="/5F1C53A6" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5F1C53A6" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 4600 2050 50  0001 C CNN
+F 1 "+3V3" H 4615 2373 50  0000 C CNN
+F 2 "" H 4600 2200 50  0001 C CNN
+F 3 "" H 4600 2200 50  0001 C CNN
+	1    4600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-PowerSymbols:3.3V #SUPPLY?
+U 1 1 5ECB9FA1
+P 5150 4700
+AR Path="/5ECB9FA1" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EFFA9D1/5ECB9FA1" Ref="#SUPPLY0103"  Part="1" 
+F 0 "#SUPPLY0103" H 5200 4700 45  0001 L BNN
+F 1 "3.3V" H 5150 4870 45  0000 C CNN
+F 2 "XXX-00000" H 5150 4881 60  0001 C CNN
+F 3 "" H 5150 4700 60  0001 C CNN
+	1    5150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EDA1224
+P 7650 4500
+AR Path="/5D6DD9D9/5EDA1224" Ref="#PWR?"  Part="1" 
+AR Path="/5DB2B2F0/5EDA1224" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5EDA1224" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 7650 4250 50  0001 C CNN
+F 1 "GNDD" H 7654 4345 50  0000 C CNN
+F 2 "" H 7650 4500 50  0001 C CNN
+F 3 "" H 7650 4500 50  0001 C CNN
+	1    7650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_04 J?
+U 1 1 5EDA122B
+P 7450 4350
+AR Path="/5DB2B2F0/5EDA122B" Ref="J?"  Part="1" 
+AR Path="/5EFFA9D1/5EDA122B" Ref="J14"  Part="1" 
+F 0 "J14" H 7408 4854 45  0000 C CNN
+F 1 "CONN_04" H 7408 4770 45  0000 C CNN
+F 2 "Connectors:JST_VH_B4P-VH_1x04_P3.96mm_Vertical_LongPads_Lock" H 7450 4850 20  0001 C CNN
+F 3 "" H 7450 4350 50  0001 C CNN
+	1    7450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4150 7650 4150
+Wire Wire Line
+	7650 4150 7650 4050
+Wire Wire Line
+	7650 4050 7550 4050
+Wire Wire Line
+	7650 4500 7650 4350
+Wire Wire Line
+	7650 4250 7550 4250
+Wire Wire Line
+	7550 4350 7650 4350
+Connection ~ 7650 4350
+Wire Wire Line
+	7650 4350 7650 4250
+$Comp
+L power:+5V #PWR?
+U 1 1 5EDA1239
+P 7650 3900
+AR Path="/5DB2B2F0/5EDA1239" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFA9D1/5EDA1239" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 7650 3750 50  0001 C CNN
+F 1 "+5V" H 7665 4073 50  0000 C CNN
+F 2 "" H 7650 3900 50  0001 C CNN
+F 3 "" H 7650 3900 50  0001 C CNN
+	1    7650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3900 7650 4050
+Connection ~ 7650 4050
+Text Notes 7700 4200 0    50   ~ 0
+Additional power taps for neopixels
+$EndSCHEMATC
