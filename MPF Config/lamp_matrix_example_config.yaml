@@ -1,6 +1,6 @@
 #config_version=5
 
-# Lamp Matrix
+# Lamp Matrix for use with the Xpansion board.
 # Need to change the names to match the current matrix names
 lights:
   l_A1:
