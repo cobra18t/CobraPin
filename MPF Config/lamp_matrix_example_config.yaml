@@ -1,0 +1,262 @@
+#config_version=5
+
+# Lamp Matrix
+# Need to change the names to match the current matrix names
+lights:
+  l_A1:
+    number: 2-0-0
+    subtype: matrix
+    tags: col1, row1
+  l_A2:
+    number: 2-0-1
+    subtype: matrix
+    tags: col1, row2
+  l_A3:
+    number: 2-0-2
+    subtype: matrix
+    tags: col1, row3
+  l_A4:
+    number: 2-0-3
+    subtype: matrix
+    tags: col1, row4
+  l_A5:
+    number: 2-0-4
+    subtype: matrix
+    tags: col1, row5
+  l_A6:
+    number: 2-0-5
+    subtype: matrix
+    tags: col1, row6
+  l_A7:
+    number: 2-0-6
+    subtype: matrix
+    tags: col1, row7
+  l_A8:
+    number: 2-0-7
+    subtype: matrix
+    tags: col1, row8
+  l_B1:
+    number: 2-0-8
+    subtype: matrix
+    tags: col2, row1
+  l_B2:
+    number: 2-0-9
+    subtype: matrix
+    tags: col2, row2
+  l_B3:
+    number: 2-0-10
+    subtype: matrix
+    tags: col2, row3
+  l_B4:
+    number: 2-0-11
+    subtype: matrix
+    tags: col2, row4
+  l_B5:
+    number: 2-0-12
+    subtype: matrix
+    tags: col2, row5
+  l_B6:
+    number: 2-0-13
+    subtype: matrix
+    tags: col2, row6
+  l_B7:
+    number: 2-0-14
+    subtype: matrix
+    tags: col2, row7
+  l_B8:
+    number: 2-0-15
+    subtype: matrix
+    tags: col2, row8
+  l_C1:
+    number: 2-0-16
+    subtype: matrix
+    tags: col3, row1
+  l_C2:
+    number: 2-0-17
+    subtype: matrix
+    tags: col3, row2
+  l_C3:
+    number: 2-0-18
+    subtype: matrix
+    tags: col3, row3
+  l_C4:
+    number: 2-0-19
+    subtype: matrix
+    tags: col3, row4
+  l_C5:
+    number: 2-0-20
+    subtype: matrix
+    tags: col3, row5
+  l_C6:
+    number: 2-0-21
+    subtype: matrix
+    tags: col3, row6
+  l_C7:
+    number: 2-0-22
+    subtype: matrix
+    tags: col3, row7
+  l_C8:
+    number: 2-0-23
+    subtype: matrix
+    tags: col3, row8
+  l_D1:
+    number: 2-0-24
+    subtype: matrix
+    tags: col4, row1
+  l_D2:
+    number: 2-0-25
+    subtype: matrix
+    tags: col4, row2
+  l_D3:
+    number: 2-0-26
+    subtype: matrix
+    tags: col4, row3
+  l_D4:
+    number: 2-0-27
+    subtype: matrix
+    tags: col4, row4
+  l_D5:
+    number: 2-0-28
+    subtype: matrix
+    tags: col4, row5
+  l_D6:
+    number: 2-0-29
+    subtype: matrix
+    tags: col4, row6
+  l_D7:
+    number: 2-0-30
+    subtype: matrix
+    tags: col4, row7
+  l_D8:
+    number: 2-0-31
+    subtype: matrix
+    tags: col4, row8
+  l_E1:
+    number: 2-0-32
+    subtype: matrix
+    tags: col5, row1
+  l_E2:
+    number: 2-0-33
+    subtype: matrix
+    tags: col5, row2
+  l_E3:
+    number: 2-0-34
+    subtype: matrix
+    tags: col5, row3
+  l_E4:
+    number: 2-0-35
+    subtype: matrix
+    tags: col5, row4
+  l_E5:
+    number: 2-0-36
+    subtype: matrix
+    tags: col5, row5
+  l_E6:
+    number: 2-0-37
+    subtype: matrix
+    tags: col5, row6
+  l_E7:
+    number: 2-0-38
+    subtype: matrix
+    tags: col5, row7
+  l_E8:
+    number: 2-0-39
+    subtype: matrix
+    tags: col5, row8
+  l_F1:
+    number: 2-0-40
+    subtype: matrix
+    tags: col6, row1
+  l_F2:
+    number: 2-0-41
+    subtype: matrix
+    tags: col6, row2
+  l_F3:
+    number: 2-0-42
+    subtype: matrix
+    tags: col6, row3
+  l_F4:
+    number: 2-0-43
+    subtype: matrix
+    tags: col6, row4
+  l_F5:
+    number: 2-0-44
+    subtype: matrix
+    tags: col6, row5
+  l_F6:
+    number: 2-0-45
+    subtype: matrix
+    tags: col6, row6
+  l_F7:
+    number: 2-0-46
+    subtype: matrix
+    tags: col6, row7
+  l_F8:
+    number: 2-0-47
+    subtype: matrix
+    tags: col6, row8
+  l_G1:
+    number: 2-0-48
+    subtype: matrix
+    tags: col7, row1
+  l_G2:
+    number: 2-0-49
+    subtype: matrix
+    tags: col7, row2
+  l_G3:
+    number: 2-0-50
+    subtype: matrix
+    tags: col7, row3
+  l_G4:
+    number: 2-0-51
+    subtype: matrix
+    tags: col7, row4
+  l_G5:
+    number: 2-0-52
+    subtype: matrix
+    tags: col7, row5
+  l_G6:
+    number: 2-0-53
+    subtype: matrix
+    tags: col7, row6
+  l_G7:
+    number: 2-0-54
+    subtype: matrix
+    tags: col7, row7
+  l_G8:
+    number: 2-0-55
+    subtype: matrix
+    tags: col7, row8
+  l_H1:
+    number: 2-0-56
+    subtype: matrix
+    tags: col8, row1
+  l_H2:
+    number: 2-0-57
+    subtype: matrix
+    tags: col8, row2
+  l_H3:
+    number: 2-0-58
+    subtype: matrix
+    tags: col8, row3
+  l_H4:
+    number: 2-0-59
+    subtype: matrix
+    tags: col8, row4
+  l_H5:
+    number: 2-0-60
+    subtype: matrix
+    tags: col8, row5
+  l_H6:
+    number: 2-0-61
+    subtype: matrix
+    tags: col8, row6
+  l_H7:
+    number: 2-0-62
+    subtype: matrix
+    tags: col8, row7
+  l_H8:
+    number: 2-0-63
+    subtype: matrix
+    tags: col8, row8
+
