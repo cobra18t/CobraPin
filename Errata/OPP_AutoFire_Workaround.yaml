@@ -1,0 +1,82 @@
+#config_version=5
+
+hardware:
+  platform: opp
+  driverboards: gen2
+
+
+switches:
+  #real autofire switches
+  s_left_flipper:
+    number: 0-0-27
+    tags: left_flipper
+  s_right_flipper:
+    number: 0-0-26
+    tags: right_flipper
+  s_pop_bumper:
+    number: 0-0-25
+
+  #must be a direct input on the same board as the coil it is protecting
+  s_dummy:
+    number: 0-0-24
+    tags: start
+
+
+coils:
+  #There are multiple ways to configure flippers, use the one that
+  #  matches your hardware
+  c_flipper_left:
+    number: 0-0-8           
+    allow_enable: true
+    default_hold_power: 0.1
+    default_pulse_ms: 15
+  c_flipper_right:
+    number: 0-0-4            
+    allow_enable: true
+    default_hold_power: 0.1
+    default_pulse_ms: 15    
+  c_pop_bumper:
+    number: 0-0-1
+    default_pulse_ms: 12         
+
+
+flippers:
+  #Add your normal flipper config here
+  left_flipper:
+    main_coil: c_flipper_left
+    activation_switch: s_left_flipper
+  right_flipper:
+    main_coil: c_flipper_right
+    activation_switch: s_right_flipper
+
+  #Add dummy flippers for each real flipper
+  #Each use the dummy switch and are enabled at startup and never disabled
+  left_flipper_dummy:
+    main_coil: c_flipper_left
+    activation_switch: s_dummy
+    enable_events: machine_reset_phase_3
+    disable_events: bogus_event
+  right_flipper_dummy:
+    main_coil: c_flipper_right
+    activation_switch: s_dummy
+    enable_events: machine_reset_phase_3
+    disable_events: bogus_event
+
+
+autofire_coils:
+  #Add your normal autofire config here
+  pop_bumper:
+    coil: c_pop_bumper
+    switch: s_pop_bumper
+    enable_events: ball_started, enableAutofire
+    disable_events: ball_will_end, disableAutofire
+
+  #Add dummy autofire coils for each real autofire coil
+  #Each use the dummy switch and are enabled at startup and never disabled
+  pop_bumper_dummy:
+    coil: c_pop_bumper
+    switch: s_dummy
+    enable_events: machine_reset_phase_3
+    disable_events: bogus_event
+
+
