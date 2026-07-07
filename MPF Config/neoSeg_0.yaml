@@ -1,0 +1,871 @@
+#config_version=5
+
+lights:
+   l_neoseg_0_4_b:
+      start_channel: 0-0-0 #should be board-0-channel where channel=[channels per pixel] x [pixels before NeoSeg].
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_g2:
+      previous: l_neoseg_0_4_b
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_l:
+      previous: l_neoseg_0_4_g2
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_c:
+      previous: l_neoseg_0_4_l
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_dp:
+      previous: l_neoseg_0_4_c
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_a:
+      previous: l_neoseg_0_4_dp
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_5_d:
+      previous: l_neoseg_0_4_a
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_m:
+      previous: l_neoseg_0_5_d
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_n:
+      previous: l_neoseg_0_5_m
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_e:
+      previous: l_neoseg_0_5_n
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_g1:
+      previous: l_neoseg_0_5_e
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_j:
+      previous: l_neoseg_0_5_g1
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_h:
+      previous: l_neoseg_0_5_j
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_f:
+      previous: l_neoseg_0_5_h
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_a:
+      previous: l_neoseg_0_5_f
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_6_b:
+      previous: l_neoseg_0_5_a
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_g2:
+      previous: l_neoseg_0_6_b
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_l:
+      previous: l_neoseg_0_6_g2
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_c:
+      previous: l_neoseg_0_6_l
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_dp:
+      previous: l_neoseg_0_6_c
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_a:
+      previous: l_neoseg_0_6_dp
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_7_d:
+      previous: l_neoseg_0_6_a
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_m:
+      previous: l_neoseg_0_7_d
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_n:
+      previous: l_neoseg_0_7_m
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_e:
+      previous: l_neoseg_0_7_n
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_g1:
+      previous: l_neoseg_0_7_e
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_j:
+      previous: l_neoseg_0_7_g1
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_h:
+      previous: l_neoseg_0_7_j
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_f:
+      previous: l_neoseg_0_7_h
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_a:
+      previous: l_neoseg_0_7_f
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_7_k:
+      previous: l_neoseg_0_7_a
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_b:
+      previous: l_neoseg_0_7_k
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_g2:
+      previous: l_neoseg_0_7_b
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_l:
+      previous: l_neoseg_0_7_g2
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_c:
+      previous: l_neoseg_0_7_l
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_7_dp:
+      previous: l_neoseg_0_7_c
+      type: w
+      subtype: led
+      tags: l_neoseg_0_7
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_6_k:
+      previous: l_neoseg_0_7_dp
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_d:
+      previous: l_neoseg_0_6_k
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_m:
+      previous: l_neoseg_0_6_d
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_n:
+      previous: l_neoseg_0_6_m
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_e:
+      previous: l_neoseg_0_6_n
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_g1:
+      previous: l_neoseg_0_6_e
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_j:
+      previous: l_neoseg_0_6_g1
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_h:
+      previous: l_neoseg_0_6_j
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_6_f:
+      previous: l_neoseg_0_6_h
+      type: w
+      subtype: led
+      tags: l_neoseg_0_6
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_5_k:
+      previous: l_neoseg_0_6_f
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_b:
+      previous: l_neoseg_0_5_k
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_g2:
+      previous: l_neoseg_0_5_b
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_l:
+      previous: l_neoseg_0_5_g2
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_c:
+      previous: l_neoseg_0_5_l
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_5_dp:
+      previous: l_neoseg_0_5_c
+      type: w
+      subtype: led
+      tags: l_neoseg_0_5
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_4_k:
+      previous: l_neoseg_0_5_dp
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_d:
+      previous: l_neoseg_0_4_k
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_m:
+      previous: l_neoseg_0_4_d
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_n:
+      previous: l_neoseg_0_4_m
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_e:
+      previous: l_neoseg_0_4_n
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_g1:
+      previous: l_neoseg_0_4_e
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_j:
+      previous: l_neoseg_0_4_g1
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_h:
+      previous: l_neoseg_0_4_j
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_4_f:
+      previous: l_neoseg_0_4_h
+      type: w
+      subtype: led
+      tags: l_neoseg_0_4
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_3_k:
+      previous: l_neoseg_0_4_f
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_b:
+      previous: l_neoseg_0_3_k
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_g2:
+      previous: l_neoseg_0_3_b
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_l:
+      previous: l_neoseg_0_3_g2
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_c:
+      previous: l_neoseg_0_3_l
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_dp:
+      previous: l_neoseg_0_3_c
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_2_k:
+      previous: l_neoseg_0_3_dp
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_d:
+      previous: l_neoseg_0_2_k
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_m:
+      previous: l_neoseg_0_2_d
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_n:
+      previous: l_neoseg_0_2_m
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_e:
+      previous: l_neoseg_0_2_n
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_g1:
+      previous: l_neoseg_0_2_e
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_j:
+      previous: l_neoseg_0_2_g1
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_h:
+      previous: l_neoseg_0_2_j
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_f:
+      previous: l_neoseg_0_2_h
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_1_k:
+      previous: l_neoseg_0_2_f
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_b:
+      previous: l_neoseg_0_1_k
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_g2:
+      previous: l_neoseg_0_1_b
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_l:
+      previous: l_neoseg_0_1_g2
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_c:
+      previous: l_neoseg_0_1_l
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_dp:
+      previous: l_neoseg_0_1_c
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_0_k:
+      previous: l_neoseg_0_1_dp
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_d:
+      previous: l_neoseg_0_0_k
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_m:
+      previous: l_neoseg_0_0_d
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_n:
+      previous: l_neoseg_0_0_m
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_e:
+      previous: l_neoseg_0_0_n
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_g1:
+      previous: l_neoseg_0_0_e
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_j:
+      previous: l_neoseg_0_0_g1
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_h:
+      previous: l_neoseg_0_0_j
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_f:
+      previous: l_neoseg_0_0_h
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_0_b:
+      previous: l_neoseg_0_0_f
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_g2:
+      previous: l_neoseg_0_0_b
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_l:
+      previous: l_neoseg_0_0_g2
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_c:
+      previous: l_neoseg_0_0_l
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_dp:
+      previous: l_neoseg_0_0_c
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_0_a:
+      previous: l_neoseg_0_0_dp
+      type: w
+      subtype: led
+      tags: l_neoseg_0_0
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_1_d:
+      previous: l_neoseg_0_0_a
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_m:
+      previous: l_neoseg_0_1_d
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_n:
+      previous: l_neoseg_0_1_m
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_e:
+      previous: l_neoseg_0_1_n
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_g1:
+      previous: l_neoseg_0_1_e
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_j:
+      previous: l_neoseg_0_1_g1
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_h:
+      previous: l_neoseg_0_1_j
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_f:
+      previous: l_neoseg_0_1_h
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_1_a:
+      previous: l_neoseg_0_1_f
+      type: w
+      subtype: led
+      tags: l_neoseg_0_1
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_2_b:
+      previous: l_neoseg_0_1_a
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_g2:
+      previous: l_neoseg_0_2_b
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_l:
+      previous: l_neoseg_0_2_g2
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_c:
+      previous: l_neoseg_0_2_l
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_dp:
+      previous: l_neoseg_0_2_c
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_2_a:
+      previous: l_neoseg_0_2_dp
+      type: w
+      subtype: led
+      tags: l_neoseg_0_2
+      color_correction_profile: NeoSeg_orange
+
+   l_neoseg_0_3_d:
+      previous: l_neoseg_0_2_a
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_m:
+      previous: l_neoseg_0_3_d
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_n:
+      previous: l_neoseg_0_3_m
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_e:
+      previous: l_neoseg_0_3_n
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_g1:
+      previous: l_neoseg_0_3_e
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_j:
+      previous: l_neoseg_0_3_g1
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_h:
+      previous: l_neoseg_0_3_j
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_f:
+      previous: l_neoseg_0_3_h
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+   l_neoseg_0_3_a:
+      previous: l_neoseg_0_3_f
+      type: w
+      subtype: led
+      tags: l_neoseg_0_3
+      color_correction_profile: NeoSeg_orange
+
+
+# l, m, n, k, j, h, g2, g1, f, e, d, c, b, a and dp
+segment_displays:
+  neoSeg0:
+    number: 1
+    size: 8
+    integrated_dots: true
+   #  integrated_commas: true
+    default_transition_update_hz: 24
+    platform_settings:
+      lights:
+        - a: l_neoseg_0_0_a
+          b: l_neoseg_0_0_b
+          c: l_neoseg_0_0_c
+          d: l_neoseg_0_0_d
+          e: l_neoseg_0_0_e
+          f: l_neoseg_0_0_f
+          g1: l_neoseg_0_0_g1
+          h: l_neoseg_0_0_h
+          k: l_neoseg_0_0_k
+          m: l_neoseg_0_0_m
+          n: l_neoseg_0_0_n
+          j: l_neoseg_0_0_j
+          l: l_neoseg_0_0_l
+          g2: l_neoseg_0_0_g2
+          dp: l_neoseg_0_0_dp
+        - a: l_neoseg_0_1_a
+          b: l_neoseg_0_1_b
+          c: l_neoseg_0_1_c
+          d: l_neoseg_0_1_d
+          e: l_neoseg_0_1_e
+          f: l_neoseg_0_1_f
+          g1: l_neoseg_0_1_g1
+          h: l_neoseg_0_1_h
+          k: l_neoseg_0_1_k
+          m: l_neoseg_0_1_m
+          n: l_neoseg_0_1_n
+          j: l_neoseg_0_1_j
+          l: l_neoseg_0_1_l
+          g2: l_neoseg_0_1_g2
+          dp: l_neoseg_0_1_dp
+        - a: l_neoseg_0_2_a
+          b: l_neoseg_0_2_b
+          c: l_neoseg_0_2_c
+          d: l_neoseg_0_2_d
+          e: l_neoseg_0_2_e
+          f: l_neoseg_0_2_f
+          g1: l_neoseg_0_2_g1
+          h: l_neoseg_0_2_h
+          k: l_neoseg_0_2_k
+          m: l_neoseg_0_2_m
+          n: l_neoseg_0_2_n
+          j: l_neoseg_0_2_j
+          l: l_neoseg_0_2_l
+          g2: l_neoseg_0_2_g2
+          dp: l_neoseg_0_2_dp
+        - a: l_neoseg_0_3_a
+          b: l_neoseg_0_3_b
+          c: l_neoseg_0_3_c
+          d: l_neoseg_0_3_d
+          e: l_neoseg_0_3_e
+          f: l_neoseg_0_3_f
+          g1: l_neoseg_0_3_g1
+          h: l_neoseg_0_3_h
+          k: l_neoseg_0_3_k
+          m: l_neoseg_0_3_m
+          n: l_neoseg_0_3_n
+          j: l_neoseg_0_3_j
+          l: l_neoseg_0_3_l
+          g2: l_neoseg_0_3_g2
+          dp: l_neoseg_0_3_dp
+        - a: l_neoseg_0_4_a
+          b: l_neoseg_0_4_b
+          c: l_neoseg_0_4_c
+          d: l_neoseg_0_4_d
+          e: l_neoseg_0_4_e
+          f: l_neoseg_0_4_f
+          g1: l_neoseg_0_4_g1
+          h: l_neoseg_0_4_h
+          k: l_neoseg_0_4_k
+          m: l_neoseg_0_4_m
+          n: l_neoseg_0_4_n
+          j: l_neoseg_0_4_j
+          l: l_neoseg_0_4_l
+          g2: l_neoseg_0_4_g2
+          dp: l_neoseg_0_4_dp
+        - a: l_neoseg_0_5_a
+          b: l_neoseg_0_5_b
+          c: l_neoseg_0_5_c
+          d: l_neoseg_0_5_d
+          e: l_neoseg_0_5_e
+          f: l_neoseg_0_5_f
+          g1: l_neoseg_0_5_g1
+          h: l_neoseg_0_5_h
+          k: l_neoseg_0_5_k
+          m: l_neoseg_0_5_m
+          n: l_neoseg_0_5_n
+          j: l_neoseg_0_5_j
+          l: l_neoseg_0_5_l
+          g2: l_neoseg_0_5_g2
+          dp: l_neoseg_0_5_dp
+        - a: l_neoseg_0_6_a
+          b: l_neoseg_0_6_b
+          c: l_neoseg_0_6_c
+          d: l_neoseg_0_6_d
+          e: l_neoseg_0_6_e
+          f: l_neoseg_0_6_f
+          g1: l_neoseg_0_6_g1
+          h: l_neoseg_0_6_h
+          k: l_neoseg_0_6_k
+          m: l_neoseg_0_6_m
+          n: l_neoseg_0_6_n
+          j: l_neoseg_0_6_j
+          l: l_neoseg_0_6_l
+          g2: l_neoseg_0_6_g2
+          dp: l_neoseg_0_6_dp
+        - a: l_neoseg_0_7_a
+          b: l_neoseg_0_7_b
+          c: l_neoseg_0_7_c
+          d: l_neoseg_0_7_d
+          e: l_neoseg_0_7_e
+          f: l_neoseg_0_7_f
+          g1: l_neoseg_0_7_g1
+          h: l_neoseg_0_7_h
+          k: l_neoseg_0_7_k
+          m: l_neoseg_0_7_m
+          n: l_neoseg_0_7_n
+          j: l_neoseg_0_7_j
+          l: l_neoseg_0_7_l
+          g2: l_neoseg_0_7_g2
+          dp: l_neoseg_0_7_dp
+      type: 14segment
